@@ -12,7 +12,7 @@ int main()
     
     while(number!=0){
         number = number/10;
-        numberofPower++;
+        numberofPower = numberofPower+1 ;
     }
     number = orignalNumber;
     while(number!=0){
