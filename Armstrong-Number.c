@@ -11,8 +11,9 @@ int main()
     int orignalNumber = number;
     
     while(number!=0){
+        
         number = number/10;
-        numberofPower = numberofPower+1 ;
+        numberofPower++;
     }
     number = orignalNumber;
     while(number!=0){
